@@ -13,7 +13,13 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e0f7fa; /* Biru air jernih untuk latar belakang */
+    
+    /* --- Kode Background Gambar --- */
+    background-image: url('bg-laut.jpg'); /* Pastikan nama ini sama dengan file gambarmu */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
     color: #023e8a; /* Biru laut dalam untuk teks */
 }
 
