@@ -1,5 +1,13 @@
 /* --- TEMA LAUT (OCEAN THEME) --- */
 
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
 /* Mengatur font dan gaya dasar */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
