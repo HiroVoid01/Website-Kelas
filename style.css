@@ -111,7 +111,8 @@ nav a:hover {
 }
 
 .bg-light {
-   background-color: #caf0f8; /* Latar biru pastel untuk area tugas */
+   background-color: transparent; /* Membuat kotaknya hilang/tembus pandang */
+    color: white; /* Mengubah teks daftar tugas jadi putih */
     border-radius: 10px;
 }
 
