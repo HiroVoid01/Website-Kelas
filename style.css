@@ -138,5 +138,23 @@ footer {
     margin-top: 40px;
 }
 @media (max-width: 600px) {
-body { width: 100%; }
+    body { 
+        width: 100%; 
+    }
+    
+    header {
+        flex-direction: column; /* Menyusun isi header dari atas ke bawah */
+        gap: 15px; /* Memberi jarak agar tidak menempel */
+        padding: 20px 10px;
+    }
+
+    .brand-container {
+        flex-direction: column; /* Logo dan Judul juga disusun atas-bawah */
+        text-align: center;
+    }
+
+    nav ul {
+        flex-wrap: wrap; /* Kalau menu terlalu panjang, otomatis turun ke baris baru */
+        justify-content: center;
+    }
 }
