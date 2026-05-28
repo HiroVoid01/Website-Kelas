@@ -111,9 +111,15 @@ nav a:hover {
 }
 
 .bg-light {
-   background-color: transparent; /* Membuat kotaknya hilang/tembus pandang */
-    color: white; /* Mengubah teks daftar tugas jadi putih */
+    background-color: rgba(255, 255, 255, 0.8); /* Kotak putih semi-transparan */
     border-radius: 10px;
+    padding: 20px; /* Biar teksnya nggak mepet ke pinggir kotak */
+}
+
+/* Tambahkan kode ini persis di bawah .bg-light */
+.bg-light h2 {
+    color: #0077b6; /* Khusus tulisan Info Tugas kembali jadi biru */
+    border-bottom: 2px dashed #0077b6; /* Garisnya juga kembali biru */
 }
 
 .card-container {
