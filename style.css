@@ -91,17 +91,13 @@ nav a:hover {
     width: 100%;
     max-width: 800px;
     height: auto;
-    /* Kita bikin border-radius-nya sangat tidak beraturan biar kayak bentuk karang */
-    border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%; 
+    border-radius: 10px; /* Radius kecil saja, biar bingkainya menyatu */
     margin-top: 20px;
-    object-fit: cover; /* Biar fotonya tetap proporsional */
+    box-shadow: 0 8px 16px rgba(0, 119, 182, 0.4);
 
-    /* --- INI KODE BINGKAI GLOW TERUMBU KARANG --- */
-    /* Kita pakai 3 lapis bayangan warna-warni tanpa bingkai padat */
-    box-shadow: 
-        0 0 15px 10px rgba(255, 111, 97, 0.7), /* Glow Oranye Coral di dalam */
-        0 0 30px 20px rgba(255, 20, 147, 0.5),  /* Glow Pink Deep di tengah */
-        0 0 50px 30px rgba(0, 180, 216, 0.3); /* Glow Cyan Laut di paling luar */
+    /* --- KODE BINGKAI GAMBAR TERUMBU KARANG --- */
+    border: 30px solid transparent; /* Tebal bingkai 30px */
+    border-image: url('coral-texture.png') 30 stretch; /* Menggunakan gambar texture sebagai bingkai */
 }
 
 /* Gaya Bagian Konten */
