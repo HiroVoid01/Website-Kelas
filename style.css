@@ -104,8 +104,8 @@ nav a:hover {
 }
 
 .content-section h2 {
-    color: #0077b6;
-    border-bottom: 2px dashed #90e0ef;
+    color: white; /* Mengubah warna teks menjadi putih */
+    border-bottom: 2px dashed white; /* Mengubah warna garis putus-putus menjadi putih */
     padding-bottom: 10px;
     display: inline-block;
 }
