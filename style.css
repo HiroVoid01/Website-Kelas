@@ -129,3 +129,6 @@ footer {
     color: #caf0f8;
     margin-top: 40px;
 }
+@media (max-width: 600px) {
+body { width: 100%; }
+}
