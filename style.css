@@ -80,10 +80,11 @@ nav a:hover {
     padding: 40px 20px;
     background-color: transparent;
     border-bottom: none;
+    color: white; /* Tambahkan baris ini */
 }
 
 .hero h2 {
-    color: #0077b6;
+    color: white;
 }
 
 .hero-image {
