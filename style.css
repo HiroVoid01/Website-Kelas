@@ -111,7 +111,7 @@ nav a:hover {
 }
 
 .bg-light {
-    background-color: transparent; /* Ubah bagian ini agar tembus pandang 100% */
+   background-color: #caf0f8; /* Latar biru pastel untuk area tugas */
     border-radius: 10px;
 }
 
