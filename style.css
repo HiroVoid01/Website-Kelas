@@ -216,6 +216,42 @@ footer {
     color: white;
 }
 
+/* --- GAYA PROFIL WALI KELAS --- */
+.wali-kelas-container {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.foto-walikelas {
+    width: 180px; /* Mengatur besar foto */
+    height: 180px;
+    object-fit: cover; /* Biar foto tidak gepeng */
+    border-radius: 50%; /* Membuat foto menjadi bulat sempurna */
+    border: 5px solid #00b4d8; /* Bingkai warna cyan ala laut */
+    box-shadow: 0 8px 20px rgba(0, 119, 182, 0.4); /* Efek bayangan */
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+/* Efek saat foto wali kelas disentuh kursor */
+.foto-walikelas:hover {
+    transform: scale(1.05); /* Sedikit membesar */
+}
+
+.nama-walikelas {
+    color: white; /* Warna nama putih agar terlihat jelas di atas laut */
+    margin: 0;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sedikit bayangan hitam agar teks lebih mudah dibaca */
+}
+
+.quotes-walikelas {
+    color: #caf0f8; /* Warna biru sangat muda/pastel */
+    font-style: italic; /* Teks miring untuk quotes */
+    margin-top: 10px;
+    font-size: 16px;
+}
+
 @media (max-width: 600px) {
     body { 
         width: 100%; 
